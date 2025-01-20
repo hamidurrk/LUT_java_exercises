@@ -19,15 +19,15 @@ public class App
                     hedgehog.speak(userInputString);
                 }
             } else if (userInput.equals("2")) {
-                System.out.println("What is the name of the hedgehog: ");
+                System.out.println("What is the name of the hedgehog:");
                 String name = scanner.next();
-                System.out.println("What is the age of the hedgehog: ");
+                System.out.println("What is the age of the hedgehog:");
                 try {
                     int age = scanner.nextInt();
+                    scanner.nextLine();
                     hedgehog = new Hedgehog(name, age);
                 } catch (Exception e) {
                     System.out.println("Wrong input value");
-                    scanner.nextLine();
                 }
             } else if (userInput.equals("3")) {
                 System.out.println("How many laps?");
