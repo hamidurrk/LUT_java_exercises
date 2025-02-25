@@ -42,6 +42,14 @@ This repository contains various Java exercises organized into different directo
 - **Book**: A class representing a book with a title, ISBN, and an `Author`.
 - **Author**: A class representing an author with a name and nationality.
 
+### Exercise 6
+- **App**: A console application that interacts with various `Vehicle` classes.
+- **Vehicle**: An abstract class representing a generic vehicle with properties like type, manufacturer, model, and max speed.
+- **Car**: A class representing a car, extending the `Vehicle` class, with a method to drive.
+- **Plane**: A class representing a plane, extending the `Vehicle` class, with a method to fly.
+- **Ship**: A class representing a ship, extending the `Vehicle` class, with a method to sail.
+- **Engine**: A class representing an engine with properties like name and power.
+
 ## How to Run
 
 Each exercise is a Maven project. To run any of the exercises, navigate to the respective directory and use the following Maven commands:
