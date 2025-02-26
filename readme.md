@@ -50,6 +50,16 @@ This repository contains various Java exercises organized into different directo
 - **Ship**: A class representing a ship, extending the `Vehicle` class, with a method to sail.
 - **Engine**: A class representing an engine with properties like name and power.
 
+### Exercise 7
+
+- **App**: A console application for managing a library system.
+- **LibrarySystem**: A class representing the library system, containing methods to add, remove, list, search, save, and load items.
+- **Item**: An abstract class representing a generic library item with properties like ID and title.
+- **Book**: A class representing a book, extending the `Item` class, with an additional property for the author.
+- **DVD**: A class representing a DVD, extending the `Item` class, with an additional property for duration.
+- **FileHandler**: An interface for handling file operations, with methods to save and load items.
+- **TextFileHandler**: A class implementing the `FileHandler` interface, providing functionality to save and load items to/from a text file.
+
 ## How to Run
 
 Each exercise is a Maven project. To run any of the exercises, navigate to the respective directory and use the following Maven commands:
