@@ -5,24 +5,24 @@ This repository contains various Java exercises organized into different directo
 
 ## Exercises
 
-### Exercise 1
-
+### Exercise 1: 
+#### Java syntax, Hello World
 - **Demo10**: A simple "Hello World" application.
 - **Exercise**: Another "Hello World" application with the same structure.
 
 ### Exercise 2
-
+#### Class creation, object interaction
 - **App**: A console application that interacts with a `Hedgehog` class.
 - **Hedgehog**: A class representing a hedgehog with methods to speak and run.
 
 ### Exercise 3
-
+#### Object collections, inheritance, polymorphism
 - **App**: A console application that interacts with a `Zoo` class.
 - **Zoo**: A class representing a zoo containing multiple `Animal` objects.
 - **Animal**: A class representing an animal with methods to run.
 
 ### Exercise 4
-
+#### Data structures, object relationships, encapsulation
 - **App**: A console application for managing students and their course completions.
 - **University**: A class representing a university containing multiple `Student` objects.
 - **Student**: A class representing a student with a list of `Grade` objects.
@@ -30,19 +30,20 @@ This repository contains various Java exercises organized into different directo
 - **Calculator**: A utility class for calculating average and median grades.
 
 ### Exercise 5-1
-
+#### Object relationships, unique identifiers
 - **Main**: A console application that interacts with `Course` and `Student` classes.
 - **Course**: A class representing a course with a name and maximum number of students.
 - **Student**: A class representing a student with a name and student ID.
 
 ### Exercise 5-2
-
+#### Object collections, properties, relationships
 - **Main**: A console application that interacts with `Bookshelf`, `Book`, and `Author` classes.
 - **Bookshelf**: A class representing a bookshelf containing multiple `Book` objects.
 - **Book**: A class representing a book with a title, ISBN, and an `Author`.
 - **Author**: A class representing an author with a name and nationality.
 
 ### Exercise 6
+#### Abstract classes, inheritance, specific functionalities
 - **App**: A console application that interacts with various `Vehicle` classes.
 - **Vehicle**: An abstract class representing a generic vehicle with properties like type, manufacturer, model, and max speed.
 - **Car**: A class representing a car, extending the `Vehicle` class, with a method to drive.
@@ -51,7 +52,7 @@ This repository contains various Java exercises organized into different directo
 - **Engine**: A class representing an engine with properties like name and power.
 
 ### Exercise 7
-
+#### Complex systems, interfaces, file operations
 - **App**: A console application for managing a library system.
 - **LibrarySystem**: A class representing the library system, containing methods to add, remove, list, search, save, and load items.
 - **Item**: An abstract class representing a generic library item with properties like ID and title.
