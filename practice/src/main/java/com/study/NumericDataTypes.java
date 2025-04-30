@@ -6,6 +6,5 @@ public class NumericDataTypes {
         Float f = 10.20f;
         Double d = 10.02;
         Math.pow(123, 123);
-        
     }
 }
